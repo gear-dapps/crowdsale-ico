@@ -90,6 +90,7 @@ fn not_minting_tokens() {
         InitConfig {
             name: String::from("MyToken"),
             symbol: String::from("MTK"),
+            decimals: 1,
         },
     );
 
